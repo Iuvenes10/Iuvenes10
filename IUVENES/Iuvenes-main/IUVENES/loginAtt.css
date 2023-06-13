@@ -1,0 +1,64 @@
+:root {
+    --color-purple: #8704c4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login {
+    border: solid 1px red;
+    height: 500px;
+    width: 400px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.login-form h1 {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.login-form-input {
+    margin: 20px;
+}
+
+.login-form-input input {
+    margin: 15px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.login-form-submit {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 10px;
+    font-size: 15px;
+    border: solid 1px var(--color-purple);
+    border-radius: 8px;
+    cursor: pointer;
+    color: rgb(255, 196, 0);
+    background-color: var(--color-purple);
+    transition: all .3s;
+}
+
+button:hover {
+    border: solid 1px var(--color-purple);
+    background-color: white;
+    color: var(--color-purple);
+}

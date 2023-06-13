@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./cadastro.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="../IUVENES/IUVENES.png">
+
+    <title>Cadastro</title>
+</head>
+<body>
+    
+	
+	
+		
+		  
+		</nav>
+	  </header>  <br/><br/><br/><br/><br/>  <br/><br/><br/><br/><br/>  <br/><br/><br/><br/><br/>
+    <div class="wrapper">
+        <div class="signup">
+            <div class="logo">
+                <a class="logo__link" href="/"></a>
+            </div>
+            <h1 class="signup__title">Cadastre-se</h1>
+          
+            <form class="form" data-form>
+                <div class="form__group">
+                    <label class="form__label" for="inputName"><b>Nome Completo</b> </label>
+                    <input type="text" name="name" class="form__input-text" id="inputName" placeholder="" required data-input/>
+                    <span class="form__message-error" data-error-message></span>
+                </div>
+                <div class="form__group">
+                    <label class="form__label" for="inputEmail"><b>E-Mail</b></label>
+                    <input type="email" name="email" class="form__input-text" id="inputEmail" placeholder="" required data-input />
+                    <span class="form__message-error" data-error-message></span>
+                </div>
+                <div class="form__group">
+                    
+                    <label class="form__label" for="inputDate"><b>Data de Nascimento</b></label>
+                    <input type="text" name="dataNasc" class="form__input-text" id="inputDate" placeholder="" required data-input />
+                    <span class="form__message-error" data-error-message></span>
+                </div> 
+                <div class="form__group">
+                    
+                    <label class="form__label" for="inputTel"><b>Telefone</b></label>
+                    <input type="text" name="tel" class="form__input-text" id="inputTel" placeholder="" required data-input />
+                    <span class="form__message-error" data-error-message></span>
+                </div>
+                <div class="form__group">
+                    
+                    <label class="form__label" for="inputChoose"><b>Você é: profissional da limpeza ou contratante?</b></label>
+                    <input type="text" name="choose" class="form__input-text" id="inputChoose" placeholder="" required data-input />
+                    <span class="form__message-error" data-error-message></span>
+                </div>
+
+                <div class="form__group">
+                    <label class="form__label" for="inputPassword"><b>Senha</b> </label>
+                    <input type="password" name="password" class="form__input-text" id="inputPassword" placeholder="" required data-input />
+                    <i data-password-eye></i>
+                    <span class="form__message-error" data-error-message></span>
+                    <div class="requirements">
+                        <div class="requirements__progressbar" data-requirement-progressbar data-percentage="0"></div>
+                        <div class="requirements__description">A senha deverá ter</div>
+                        <ul class="requirements__list">
+                            <li class="requirements__item" data-requirement-item="lowerUpperCase">
+                                <i class="fas"></i>
+                                Pelo menos 1 letra maiúscula e 1 letra minúscula</li>
+                            <li class="requirements__item" data-requirement-item="number">
+                                <i class="fas"></i>
+                                Pelo menos 1 número
+                            </li>
+                            <li class="requirements__item" data-requirement-item="specialCharacter">
+                                <i class="fas"></i>
+                                Pelo menos 1 caracter especial</li>
+                            <li class="requirements__item" data-requirement-item="minCharacter">
+                                <i class="fas"></i>
+                                Pelo menos 8 caracteres
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="form__group">
+                    <input type="checkbox" name="terms" class="form__input-checkbox" id="inputTerms" required data-input/>
+                    <label class="form__label" for="inputTerms">Concordo com os <a class="form__link" href="../Termos de Uso e Privacidade/privacidade.html">termos</a> e <a class="form__link" href="../Termos de Uso e Privacidade/privacidade.html">política de privacidade</a></label>
+                    <span class="form__message-error" data-error-message>Campo obrigatório</span>
+                </div>
+              
+				<br/>	<div class="form__group form__group--center" class="container-login-form-btn">
+						<button class="login-form-btn">
+							<a href="../Cadastro/cadastro.html">Cadastrar</a> 
+						</button>
+					</div>
+
+					<ul class="login-utils">
+						
+
+						<li>
+							<span class="text1">
+								Já tem uma conta?
+							</span>
+
+							<a href="." class="text2">
+								ENTRAR
+							</a>
+						</li>
+					</ul>
+            </form>
+        </div>
+    </div>
+    <script src="./assets/js/show-password.js"></script>
+    <script src="./assets/js/form-validation.js"></script>
+    
+    <br/> <br/> <br/> <br/> <br/> <br/>  <br/><br/><br/><br/><br/>  <br/><br/><br/><br/><br/>  <br/><br/><br/><br/><br/>
+    <br/>
+    <br/>
+    
+   
+</body>
+</html>
